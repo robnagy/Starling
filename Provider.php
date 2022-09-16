@@ -56,7 +56,7 @@ class Provider extends AbstractProvider
     protected function getTokenUrl()
     {
         return $this->isSandbox() ?
-            'https://api-sandbox.starlingbank.com/oauth/access-token' :
+            'https://token-api-sandbox.starlingbank.com/oauth/access-token' :
             'https://token-api.starlingbank.com/oauth/access-token';
     }
 
